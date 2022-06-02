@@ -23,7 +23,7 @@ test('should take a cheap courses', () => {
 
     // const cheapPredicate = (course: CourseType) => {
     //     return course.price < 160;
-    // } - предткат запизнули в фильтр и сократилт
+    // } - предткат запихнули в фильтр и сократили
     const cheapCourses = courses.filter(el => el.price < 160);
 
     expect(cheapCourses.length).toBe(2)
